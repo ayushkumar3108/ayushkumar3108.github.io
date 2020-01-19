@@ -1,0 +1,50 @@
+body,html
+{
+	width: 100%;
+	height: 100%;
+}
+body/*Adding image to background*/
+{
+	background-image: url(https://images.unsplash.com/photo-1514416309827-bfb0cf433a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+	background-repeat: no-repeat;
+	background-size:1600px 800px;
+	
+}
+.mb-0/*Adding the font to the background*/
+{
+	font-family: 'Lato', sans-serif;
+	color: #FFE879;   
+	font-size: 250%;
+	}
+
+.adjust
+{
+ padding-top: 250px;
+ }
+ .adj
+ {
+ 	border:50px white;
+ }
+.btn-warning/*Adding the font  to the button*/
+{
+   font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+
+}
+.btn-warning {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-warning:hover /*Adding the weight and transition to the button*/
+{
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+  }
